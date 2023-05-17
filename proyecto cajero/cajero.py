@@ -17,7 +17,7 @@ while intentos < 3:
     if nombre_de_usuario == user and contrasenia == password:
         print('        Ingreso exitoso.')
         time.sleep(1)
-
+        print(f'\nQue tenga una buena jornada ☺ !\n')
         print('\n*************************** FIN PROCESO DE VALIDACIÓN DE DATOS ***************************\n')
 
         print('\n*************************** M E N Ú ***************************\n')
@@ -34,6 +34,7 @@ while intentos < 3:
 # OPCION 4- sale del programa
 
             if opción_elegida == 4:
+                print(f'\nQue tenga una buena jornada ☺ !\n')
                 print(
                     '\n*************************** FIN PROCESO DE VALIDACIÓN DE DATOS ***************************\n')
                 exit()
@@ -58,6 +59,7 @@ while intentos < 3:
                         print(
                             f' \n Usted ha depositado ${cantidad_a_depositar}.')
                         print(f'Su saldo actual es de ${saldo_actual}')
+                        print(f'\nQue tenga una buena jornada ☺ !\n')
                         print('FIN DEL PROCESO \n')
                         exit()
 # OPCION 2- EXTRACCION DE DINERO
@@ -79,6 +81,7 @@ while intentos < 3:
                     elif check == 1:
                         print(f' \n Usted ha extraído ${cantidad_a_extraer}.')
                         print(f'Su saldo actual es de ${saldo_actual}')
+                        print(f'\nQue tenga una buena jornada ☺ !\n')
                         print('FIN DEL PROCESO \n')
                         exit()
 
@@ -90,6 +93,7 @@ while intentos < 3:
                     check = int(input(
                         f'\n► para finalizar digite 1\n ► para volver al menú principal digite 2\n '))
                     if check == 1:
+                        print(f'\nQue tenga una buena jornada ☺ !\n')
                         print(f' \n FIN DEL PROCESO \n')
                         exit()
                     elif check == 2:
@@ -102,6 +106,7 @@ while intentos < 3:
         if intentos == 3:
             time.sleep(2)
             print("\n Ha excedido el número máximo de intentos. Cuenta bloqueada.\n")
+            print(f'\nQue tenga una buena jornada ☺ !\n')
             print(
                 '\n*************************** FIN PROCESO DE VALIDACIÓN DE DATOS ***************************\n')
             exit()
