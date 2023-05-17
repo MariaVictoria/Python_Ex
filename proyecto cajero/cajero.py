@@ -58,7 +58,7 @@ while intentos < 3:
                         print(
                             f' \n Usted ha depositado ${cantidad_a_depositar}.')
                         print(f'Su saldo actual es de ${saldo_actual}')
-                        pritnn('FIN DEL PROCESO \n')
+                        print('FIN DEL PROCESO \n')
                         exit()
 # OPCION 2- EXTRACCION DE DINERO
             elif opción_elegida == 2:
@@ -90,7 +90,7 @@ while intentos < 3:
                     check = int(input(
                         f'\n► para finalizar digite 1\n ► para volver al menú principal digite 2\n '))
                     if check == 1:
-                        print(f' \ FIN DEL PROCESO \n')
+                        print(f' \n FIN DEL PROCESO \n')
                         exit()
                     elif check == 2:
                         break
@@ -107,5 +107,7 @@ while intentos < 3:
             exit()
         else:
             print("\nCredenciales incorrectas.\n")
+
+
 
 
