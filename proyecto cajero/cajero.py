@@ -1,6 +1,6 @@
 import time
 
-print('\n*************************** SISTEMA DE VALIDACIÓN DE DATOS ***************************\n')
+print('\n*************************** SISTEMA DE VALIDACIÓN DE DATOS CAJERO ISPC ***************************\n')
 
 intentos = 0
 user = 'admin'
