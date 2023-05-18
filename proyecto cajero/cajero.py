@@ -4,7 +4,7 @@ print('\n*************************** SISTEMA DE VALIDACIÓN DE DATOS CAJERO ISPC
 
 intentos = 0
 user = 'admin'
-password = 1234
+password = 123
 
 
 while intentos < 3:
@@ -12,7 +12,7 @@ while intentos < 3:
         '   ► Ingrese su nombre de usuario, por favor: \n').lower()
     print()
     contrasenia = int(
-        input('   ► Ingrese los 4 dígitos de su contraseña, por favor: \n'))
+        input('   ► Ingrese los 3 dígitos de su contraseña, por favor: \n'))
     time.sleep(1)
     if nombre_de_usuario == user and contrasenia == password:
         print('        Ingreso exitoso.')
