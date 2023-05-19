@@ -1,6 +1,4 @@
 Python_Exercises
-Repositorio dedicado a ejercicios de práctica
-
 Ejercicio :
 CAJERO AUTOMATICO    -- ISPC
 Listado de opciones:
