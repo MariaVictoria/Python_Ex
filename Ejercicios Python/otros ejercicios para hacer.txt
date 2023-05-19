@@ -1,0 +1,7 @@
+1. Diseña un algoritmo que introduzca por teclado el nombre de 3 países, se almacenen en una lista y los muestre por pantalla.
+2. Diseña un algoritmo que almacene los precios de 4 productos que compré en una lista y luego me muestre el total en pantalla.
+3. Diseña un algoritmo que almacene las letra de tu nombre en una lista y luego muestre el nombre.
+4. Diseña un algoritmo que introduzca por teclado el nombre, materia, profesor y nota. Se almacene en una tupla y luego muestre los datos en pantalla.
+5. Diseña un algoritmo que introduzca por teclado el nombre de 3 materias y sus notas correspondientes. Deben almacenarse las materias en una tupla y las notas en otra. Luego muestre en pantalla la materia con su nota correspondiente.
+6. Diseña un algoritmo con un diccionario que contenga como clave 3 materias que estás cursando y como valores uses tuplas para almacenar 2 notas por materia. Luego por pantalla muestres las notas de cada materia.
+7. Diseña un algoritmo creando una tupla que almacene 3 categorías de música y luego crea un diccionario donde utilices como clave la tupla y almacenes 2 músicos por categoría de música. Luego mostrar en pantalla los artistas.
